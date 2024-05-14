@@ -20,7 +20,7 @@ export default function CreatePost() {
             </div>
             <div className='flex items-center justify-between my-4 border-b border-gray-100 px-2 py-2'>
                 <div>
-                    <FaRegImage/>
+                    <FaRegImage size={"20px"}/>
                 </div>
                 <button className='px-4 py-1 rounded-full text-white font-semibold text-sm text-right bg-[cornflowerblue]'>Post</button>
             </div>
