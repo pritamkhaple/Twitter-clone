@@ -4,7 +4,7 @@ import Avatar from "react-avatar";
 
 function RightSideBar() {
   return (
-    <div className="w-[25%]">
+    <div className="">
       <div className="p-2 bg-gray-100 rounded-full outline-none w-full flex items-center px-1">
         <CiSearch size={"22px"} />
         <input
@@ -29,7 +29,7 @@ function RightSideBar() {
             </div>
           </div>
           <div>
-            <button className="bg-[cornflowerblue] text-white font-bold rounded-full p-2 text-sm">
+            <button className="bg-[cornflowerblue] text-white font-bold rounded-full p-2 w-full text-sm">
               Follow
             </button>
           </div>
@@ -48,7 +48,7 @@ function RightSideBar() {
             </div>
           </div>
           <div>
-            <button className="bg-[cornflowerblue] text-white font-bold rounded-full p-2 text-sm">
+            <button className="bg-[cornflowerblue] text-white font-bold rounded-full w-full p-2 text-sm">
               Follow
             </button>
           </div>
@@ -67,7 +67,7 @@ function RightSideBar() {
             </div>
           </div>
           <div>
-            <button className="bg-[cornflowerblue] text-white font-bold rounded-full p-2 text-sm">
+            <button className="bg-[cornflowerblue] text-white font-bold rounded-full w-full p-2 text-sm">
               Follow
             </button>
           </div>
